@@ -24,7 +24,7 @@ module Tutores21
     config.autoload_paths += Dir[Rails.root.join('app', 'models', '*/')]
 
     # ActiveJobs
-    config.active_job.queue_adapter = :sidekiq
+    # config.active_job.queue_adapter = :sidekiq
 
     # For replacing ActiveStorage unique attachments
     config.active_storage.replace_on_assign_to_many = true
